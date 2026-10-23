@@ -1,6 +1,6 @@
 services:
   mariadb:
-    image: docker.io/bitnami/mariadb:latest
+    image: docker.io/soldevelo/mariadb:latest
     ports:
       - '3307:3306'  # Expose MariaDB port
     volumes:
